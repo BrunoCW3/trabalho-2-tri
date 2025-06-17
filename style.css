@@ -2,12 +2,15 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: ##ffe294;
-    --fundo-senha: ##fac73c;
-    --fundo-texto: ##ffb375;
-    --borda: ##fa7507;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #FFD580;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
+    --vermelho-pastel: #F28C8C;
+    --laranja-pastel: #FFBC80;
+    --amarelo-pastel: #FFF6A2;
 }
 
 * {
@@ -92,8 +95,8 @@ body {
 }
 
 .parametro-senha__botao {
-    background-color: var(--fundo-texto);
-    color: var(--branco);
+    background-color: var(--laranja-pastel);
+    color: black;
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
@@ -106,6 +109,16 @@ body {
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+}
+
+.botao-acao {
+    margin: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--amarelo-pastel);
+    color: black;
+    border: 2px solid var(--borda);
+    cursor: pointer;
 }
 
 label {
@@ -132,16 +145,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #E71B32;
+    background-color: var(--vermelho-pastel);
 }
 
 .media {
-    background-color: #FAF408;
+    background-color: var(--laranja-pastel);
     width: 50%;
 }
 
 .forte {
-    background-color: #00FF85;
+    background-color: var(--amarelo-pastel);
     width: 100%;
 }
 
@@ -149,7 +162,6 @@ label {
     display: flex;
     justify-content: space-between;
 }
-
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
