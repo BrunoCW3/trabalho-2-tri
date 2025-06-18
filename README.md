@@ -15,7 +15,7 @@ Também há:
 
 - HTML
 - CSS
-- JavaScript puro
+- JavaScript
 
 ## Como usar
 
@@ -23,4 +23,4 @@ Basta abrir o arquivo `index.html` em um navegador.
 
 ## Observações
 
-Este projeto foi desenvolvido como parte de uma atividade prática para aplicar os conhecimentos aprendidos em aula sobre JavaScript e DOM.
+Este projeto foi desenvolvido como parte de uma atividade prática para aplicar os conhecimentos aprendidos no curso Alura Start.
